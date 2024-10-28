@@ -1,0 +1,27 @@
+# Account Login Script
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script>
+        window.onload = function() {
+            var accounts = {
+                "dog": "1234",
+                "cat": "4321"
+            };
+
+            var username = prompt("Enter your username:");
+            var password = prompt("Enter your password:");
+
+            if (accounts[username] !== password) {
+                window.location.href = "https://example.com";
+            }
+        };
+    </script>
+</head>
+<body>
+</body>
+</html>
