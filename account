@@ -9,7 +9,7 @@
     <script>
         window.onload = function() {
             var accounts = {
-                "dog": "1234",
+                "dude": "pp",
                 "cat": "4321"
             };
 
